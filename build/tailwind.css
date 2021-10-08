@@ -919,7 +919,7 @@ input[type=text] {
 
 @media (min-width: 1200px) {
   input[type=text] {
-    width: 50%;
+    width: 91.666667%;
   }
 }
 
@@ -936,7 +936,7 @@ input[type=email] {
 
 @media (min-width: 1200px) {
   input[type=email] {
-    width: 50%;
+    width: 91.666667%;
   }
 }
 
@@ -953,7 +953,7 @@ textarea {
 
 @media (min-width: 1200px) {
   textarea {
-    width: 50%;
+    width: 91.666667%;
   }
 }
 

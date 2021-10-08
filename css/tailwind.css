@@ -29,13 +29,13 @@
         @apply block mb-2 sm:w-36 xl:text-right text-sm text-blue-100 font-bold;
     }
     input[type=text] {
-        @apply w-full xl:w-1/2 bg-gray-900 text-gray-100 border-gray-900 rounded;
+        @apply w-full xl:w-11/12 bg-gray-900 text-gray-100 border-gray-900 rounded;
     }
     input[type=email] {
-        @apply w-full xl:w-1/2 bg-gray-900 text-gray-100 border-gray-900 rounded;
+        @apply w-full xl:w-11/12 bg-gray-900 text-gray-100 border-gray-900 rounded;
     }
     textarea {
-        @apply w-full xl:w-1/2 bg-gray-900 text-gray-100 border-gray-900 rounded;
+        @apply w-full xl:w-11/12 bg-gray-900 text-gray-100 border-gray-900 rounded;
     }
     legend {
         @apply sm:float-left sm:mr-4;
