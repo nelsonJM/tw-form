@@ -823,19 +823,7 @@ form {
 @media (min-width: 768px) {
   form {
     margin: auto;
-    width: 80%;
-  }
-}
-
-@media (min-width: 1024px) {
-  form {
-    width: 60%;
-  }
-}
-
-@media (min-width: 1200px) {
-  form {
-    width: 33.333333%;
+    width: 600px;
   }
 }
 
@@ -861,27 +849,14 @@ form>div {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 600px) {
-  form>div {
-    display: flex;
-  }
-
-  form>div > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
+label + div {
+  overflow: hidden;
 }
 
 @media (min-width: 600px) {
   label + div {
-    flex: 1 1 0%;
+    padding-left: 1rem;
   }
-}
-
-fieldset {
-  margin-bottom: 1.5rem;
-  display: block;
 }
 
 .desc {
@@ -896,6 +871,7 @@ fieldset {
 
 @media (min-width: 600px) {
   .desc {
+    float: left;
     width: 9rem;
   }
 }
@@ -957,15 +933,25 @@ textarea {
   }
 }
 
+fieldset {
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
 @media (min-width: 600px) {
   legend {
     float: left;
-    margin-right: 1rem;
   }
 }
 
 legend+div {
   overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  legend+div {
+    padding-left: 1rem;
+  }
 }
 
 .choice {
@@ -7218,6 +7204,10 @@ input[type=submit] {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-sm {
+  width: 600px;
 }
 
 .min-w-0 {
@@ -38866,6 +38856,10 @@ input[type=submit] {
     width: max-content;
   }
 
+  .sm\:w-sm {
+    width: 600px;
+  }
+
   .sm\:min-w-0 {
     min-width: 0px;
   }
@@ -70092,6 +70086,10 @@ input[type=submit] {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .md\:w-sm {
+    width: 600px;
   }
 
   .md\:min-w-0 {
@@ -101322,6 +101320,10 @@ input[type=submit] {
     width: max-content;
   }
 
+  .lg\:w-sm {
+    width: 600px;
+  }
+
   .lg\:min-w-0 {
     min-width: 0px;
   }
@@ -132550,6 +132552,10 @@ input[type=submit] {
     width: max-content;
   }
 
+  .xl\:w-sm {
+    width: 600px;
+  }
+
   .xl\:min-w-0 {
     min-width: 0px;
   }
@@ -163776,6 +163782,10 @@ input[type=submit] {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+
+  .\32xl\:w-sm {
+    width: 600px;
   }
 
   .\32xl\:min-w-0 {
